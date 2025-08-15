@@ -5,9 +5,30 @@
 }
 
 body{
+    color: white;
     background-color: hsl(233, 47%, 7%);
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+p{ 
+    font-family: "Lexend Deca",Arial, Helvetica, sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 20px;
+    margin: 20px 0 50px 0;
+}
+
+span{
+    letter-spacing: 1px;
+    font-family: "Lexend Deca",Arial, Helvetica, sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 10px;
+    font-weight: 200;
+}
+
+mark{
+    background-color: transparent;
+    color: hsl(277, 64%, 61%);
 }
 
 .card{
@@ -15,7 +36,6 @@ body{
 
     background-color: hsl(244, 37%, 16%);  
     width: 65vw;
-    height: 55vh;
     margin: 20vh auto;
 }
 
@@ -24,6 +44,21 @@ body{
 }
 
 .sx{
-    background-color: beige;
-    padding: 40px;
+    padding: 50px 100px 40px 50px;
 }
+
+img{
+    max-width: 100%
+}
+
+.flex_sx{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex_sx div{
+    font-size: 18px;
+    font-weight: 700;
+}
+
