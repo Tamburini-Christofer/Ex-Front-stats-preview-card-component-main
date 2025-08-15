@@ -34,6 +34,7 @@ mark{
 .card{
     display: flex;
 
+    border-radius: 10px 0px 0px 10px;
     background-color: hsl(244, 37%, 16%);  
     width: 65vw;
     margin: 20vh auto;
@@ -47,8 +48,13 @@ mark{
     padding: 50px 100px 40px 50px;
 }
 
-img{
-    max-width: 100%
+.dx{
+    border-radius: 0 10px 10px 0;
+    background-image: url(../img/image-header-desktop.jpg);
+    background-color: hsla(276.9, 100%, 79.6%, 0.97);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flex_sx{
