@@ -9,7 +9,7 @@
 body{
     color: white;
     background-color: hsl(233, 47%, 7%);
-    font-size: 12px;
+    font-size: 13px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
@@ -17,7 +17,7 @@ p{
     font-family: "Lexend Deca",Arial, Helvetica, sans-serif;
     color: hsla(0, 0%, 100%, 0.6);
     line-height: 20px;
-    margin: 20px 0 50px 0;
+    margin: 25px 0 60px 0;
 }
 
 /*Accento*/
@@ -42,18 +42,19 @@ mark{
 
     border-radius: 10px 0px 0px 10px;
     background-color: hsl(244, 37%, 16%);  
-    width: 65vw;
-    margin: 20vh auto;
+    width: 70vw;
+    margin: 18vh auto;
 }
 
 .col{
     width: 50%;
 }
 
-.sx{display: flex;
+.sx{
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 50px 100px 40px 50px;
+    padding: 50px 100px 55px 50px;
 }
 
 .dx{
