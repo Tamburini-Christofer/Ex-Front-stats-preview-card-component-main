@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-size: 14px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.card{
+    display: flex;
+
+    background-color: hsl(244, 37%, 16%);  
+    width: 65vw;
+    height: 55vh;
+    margin: 20vh auto;
+}
+
+.col{
+    width: 50%;
+}
+
+.sx{
+    background-color: beige;
+    padding: 40px;
+}
