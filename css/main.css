@@ -44,7 +44,9 @@ mark{
     width: 50%;
 }
 
-.sx{
+.sx{display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 50px 100px 40px 50px;
 }
 
@@ -57,14 +59,45 @@ mark{
     background-repeat: no-repeat;
 }
 
-.flex_sx{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.flex_sx div{
+.sx div{
     font-size: 18px;
     font-weight: 700;
+}
+
+/**********************************************************/
+/*Responsive*/
+
+@media screen and (max-width:380px) {
+
+    .card{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .sx{
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+        padding: 58px;
+    }
+
+    .dx{
+        border-radius: 10px 10px 0 0;
+        height: 250px;
+        background-image: url(../img/image-header-mobile.jpg);
+   }
+
+   .sx div{
+    margin: 12px 0;
+
+    }
+
 }
 
